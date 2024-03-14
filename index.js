@@ -1,7 +1,6 @@
 const express = require("express");
 const { default: mongoose } = require("mongoose");
 const dotenv = require("dotenv");
-const CryptoJS = require("crypto-js");
 
 const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
